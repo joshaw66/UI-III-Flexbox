@@ -57,24 +57,29 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-
-body {
-	margin: 5%;
+h1 {
+    font-size: 25px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }
+body {
+    margin: 5%;
+}
+
+/*  NAV  */
 
 .navbar {
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
-	
 }
 
 nav a {
@@ -85,104 +90,61 @@ nav a {
 
 nav .logo {
 	display: flex;
-	padding-left: 20px;
+    padding-left: 20px;
 }
 
-/* DONE UNTIL THIS POINT */
-
-
-.header {
-	display: flex;
-	width: 100%;
-	justify-content: space-around;
-	align-items: center;
-	margin-top: 5%;
-	margin-bottom: 1%;
-}
-
-.headerleft {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 2%; 
-	width: 50%;
-}
+/*  HEADER  */
 
 .headerimage {
-	display: flex;
-	width: 50%;
-	justify-content: center;
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-.mainheader {
-	font-size: 65px;
-	font-family: 'Bangers';
-	text-align: center;
-	width: 100%;
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
-.getstarted {
-	display: flex;
-	border: solid 1px black;
-	padding: 8px 40px 8px 40px;
-	margin: 5%;
-}
-
-.top-header {
-	display: flex;
-	width: 100%;
-	flex-direction: row;
-	justify-content: flex-start;
-}
-
-.features {
-	display: flex;
-	margin-right: 43%;
-}
-
-.top-content {
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
-}
-
-.middle-img {
-	display: flex;
-	justify-content: center;
-	margin-top: 3%;
-	margin-bottom: 3%;
-	width: 100%;
-}
-
-.bottom-header {
-	display: flex;
-	width: 100%;
-	justify-content: flex-start;
-}
-
-.bottomleft {
-	padding-right: 27%;
-}
-
-.bottommiddle {
-	padding-right: 27%;
-}
-
-.bottom-content {
-	display: flex;
-	width: 100%;
-	justify-content: flex-start;
-}
+/*  BREAKLINES  */
 
 .breakline {
-	margin: 5% 0% 5% 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.copyright {
-	margin: 3%;
-	text-align: center;
+/*  MAIN CONTAINER  */
+
+.allcont {
+    border: solid;
+    display: flex;
+    flex-direction: column;
 }
 
+.row1 {
+    border: solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
 
-/* SERVICES CSS STARTS HERE */
+.digitaldesign-cont {
+}
 
+.uxui-cont {
+}
+
+.digitalmarketing-cont {
+}
+
+.webdevelopment-cont {
+}
+
+.iosdevelopment-cont {
+}
+
+.androiddevelopment-cont {
+}
