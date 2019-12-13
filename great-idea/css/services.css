@@ -111,7 +111,14 @@ nav .logo {
 
 /*  BREAKLINES  */
 
-.breakline {
+.breaklineheader {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.breaklinefooter {
+    height: 2px;
+    background-color: black;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -119,32 +126,143 @@ nav .logo {
 /*  MAIN CONTAINER  */
 
 .allcont {
-    border: solid;
-    display: flex;
-    flex-direction: column;
+    
 }
 
-.row1 {
+.row1 > section {
     border: solid;
     display: flex;
-    justify-content: center;
     flex-direction: row;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 .digitaldesign-cont {
+    border: solid 1px;
+    background-color: whitesmoke;
+    width: 95%;
+    padding: 5%;
+    margin-right: 5%;
+    
+}
+
+.button1 {
+    font-size: 12px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    width: 30%;
+    padding: 3%;
+    margin-top: 5%;
+    text-align: center;
 }
 
 .uxui-cont {
+    border: solid 1px;
+    background-color: whitesmoke;
+    width: 95%;
+    padding: 5%;
+}
+
+.button2 {
+    font-size: 12px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    width: 30%;
+    padding: 3%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.row2 > section {
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 .digitalmarketing-cont {
+    border: solid 1px;
+    background-color: whitesmoke;
+    width: 95%;
+    padding: 5%;
+}
+
+.button3 {
+    font-size: 12px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    width: 30%;
+    padding: 3%;
+    margin-top: 5%;
+    text-align: center;
 }
 
 .webdevelopment-cont {
+    border: solid 1px;
+    background-color: whitesmoke;
+    width: 95%;
+    padding: 5%;
+}
+
+.button4 {
+    font-size: 12px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    width: 30%;
+    padding: 3%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.row3 > section {
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .iosdevelopment-cont {
+    border: solid 1px;
+    background-color: whitesmoke;
+    width: 95%;
+    padding: 5%;
+}
+
+.button5 {
+    font-size: 12px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    width: 30%;
+    padding: 3%;
+    margin-top: 5%;
+    text-align: center;
 }
 
 .androiddevelopment-cont {
+    border: solid 1px;
+    background-color: whitesmoke;
+    width: 95%;
+    padding: 5%;
 }
+
+.button6 {
+    font-size: 12px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: white;
+    width: 30%;
+    padding: 3%;
+    margin-top: 5%;
+    text-align: center;
+}
+
